@@ -18,6 +18,7 @@
 | 07 | [07-marketing.md](07-marketing.md) | Positioning, productized offers, local and export channels, events, year-1 plan | Marketing, Sales |
 | 08 | [08-risks.md](08-risks.md) | 22-item risk register, federal scrutiny (GAO, Senate Finance) | All, especially Risk |
 | 09 | [09-act-60-and-tax-benefits.md](09-act-60-and-tax-benefits.md) | **Main focus:** Chapter 3 export services (4% / 2%), the nexus rule, federal §933/§937 interaction, Chapter 2 investor decree (0% vs 4% by filing date), other incentives, compliance checklist | Tax, Legal, Finance |
+| — | [expert-roster.md](expert-roster.md) | **Agent team design:** 31 expert roles with one-line job descriptions, 38 shared skills with the agents that use each, and collaboration patterns | Engagement Lead (orchestrator), whoever builds the agents |
 
 ## Executive summary
 
