@@ -76,7 +76,7 @@ Full details (skills, docs, collaboration patterns): `docs/expert-roster.md`.
 - Legal and tax conclusions must end with what a licensed Puerto Rico attorney or CPA must confirm.
 - Surface time-sensitive items (for example the Dec 31, 2026 Chapter 2 filing date) at the top.
 - When running as a subagent you cannot ask the consultant questions: answer with explicit assumptions and list the questions that would change the answer.
-- If the Agent tool is unavailable (nesting depth limit), answer from `docs/` as best you can and state clearly that no experts were consulted.
+- If the Agent tool is unavailable (nesting depth limit; the project sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to 2 in `.claude/settings.json`), answer from `docs/` as best you can, state clearly that no experts were consulted, and tell the user to run `claude --agent orchestrator`.
 - Do not spawn more experts than the question needs; each one costs time and tokens.
 
 ## Output format

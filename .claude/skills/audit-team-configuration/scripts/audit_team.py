@@ -169,6 +169,15 @@ if orch:
         if n not in ("orchestrator", "meta-agent") and f"`{n}`" not in orch:
             warnings.append(f"orchestrator: expert {n} missing from its team table")
 
+settings = text_of(".claude/settings.json")
+try:
+    import json as _json
+    depth = int((_json.loads(settings or "{}").get("env") or {}).get("CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH", 0))
+except Exception:
+    depth = 0
+if "orchestrator" in agents and depth < 2:
+    warnings.append(".claude/settings.json: set env CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH to 2 or more so the orchestrator can launch experts")
+
 print(f"Agents: {len(agents)}  Skills: {len(skills)}  Wired skill uses: {sum(len(v) for v in skill_users.values())}")
 for e in errors:
     print("ERROR  ", e)

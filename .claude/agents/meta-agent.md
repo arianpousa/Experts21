@@ -41,7 +41,7 @@ Official docs: https://code.claude.com/docs/en/sub-agents and https://code.claud
 - IDs: agents `A##`, skills `S##`, never reused. The agent body starts with `# A## · Role`; the skill sets `metadata.id`.
 - A skill is a **method** (input → steps → output), not knowledge. Domain knowledge goes in the agent prompt or `docs/`.
 - Skill names are verb-object kebab case (`build-break-even-model`). Agent names are role kebab case.
-- Experts get the least tools they need and never `Agent`; only `orchestrator` spawns experts. That keeps nesting within Claude Code's depth limit.
+- Experts get the least tools they need and never `Agent`; only `orchestrator` spawns experts. `.claude/settings.json` sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to 2 (main → orchestrator → expert); keep it at 2 or more.
 - Every expert uses the standard sections: Responsibilities, Knowledge and context, Skills, How you work, Response format.
 - Keep the team at 50 agents or fewer, and descriptions short (all agent descriptions together must stay well under Claude Code's 15,000-token limit).
 - When agents change, also update: the team table in `.claude/agents/orchestrator.md`, the routing table in `.claude/skills/route-question-to-experts/SKILL.md`, `docs/expert-roster.md`, and the team list in `CLAUDE.md`.
