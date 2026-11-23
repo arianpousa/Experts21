@@ -1,0 +1,16 @@
+{
+  "name": "experts21-sdk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ask one Experts21 agent a question with the Claude Agent SDK",
+  "type": "module",
+  "scripts": {
+    "ask": "node ask-agent.mjs",
+    "check": "node ask-agent.mjs --dry-run \"Test question\""
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.3.330",
+    "yaml": "2.9.1"
+  }
+}

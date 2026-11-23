@@ -146,6 +146,16 @@ claude --agent orchestrator
 
 ---
 
+## 4. Asking an expert from code
+
+`sdk/ask-agent.mjs` asks one agent a question through the Claude Agent SDK and prints the answer. It loads the agent's file and its knowledge folder. It needs `ANTHROPIC_API_KEY`; see [sdk/README.md](../sdk/README.md).
+
+```bash
+node sdk/ask-agent.mjs "Is a Texas client served remotely from San Juan EXPORT or LOCAL?"
+```
+
+---
+
 ## If something doesn't work
 
 - **The orchestrator answers without consulting experts.** It will say so in its answer. Check that `.claude/settings.json` still sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to `2`, or start with `claude --agent orchestrator`.

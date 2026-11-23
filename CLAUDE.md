@@ -10,6 +10,7 @@ This project is an advisory team of AI agents for a consultant planning an AI co
 - `deliverables/`: where agents save files they are asked to produce.
 - `knowledge/<agent-name>/`: each agent's own documents. The agent reads its folder before every answer. Each folder's README says what belongs there.
 - Each agent's model, name and personality: `docs/agent-brains.md`.
+- `sdk/`: Node.js script that asks one agent a question with the Claude Agent SDK (see `sdk/README.md`).
 
 ## The team
 
