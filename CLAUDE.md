@@ -11,6 +11,7 @@ This project is an advisory team of AI agents for a consultant planning an AI co
 - `knowledge/<agent-name>/`: each agent's own documents. The agent reads its folder before every answer. Each folder's README says what belongs there.
 - Each agent's model, name and personality: `docs/agent-brains.md`.
 - `sdk/`: Node.js script that asks one agent a question with the Claude Agent SDK (see `sdk/README.md`).
+- `web/`: React web app to chat with any agent or the whole team; Claude calls run in Netlify Functions (see `web/README.md`). `netlify.toml` at the root builds it.
 
 ## The team
 

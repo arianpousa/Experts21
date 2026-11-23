@@ -1,0 +1,21 @@
+"$schema" = "https://open-api.netlify.com/netlify.schema.json"
+
+# Netlify builds the Experts21 web app from web/. No settings are needed in the Netlify UI
+# except the ANTHROPIC_API_KEY environment variable (see web/README.md).
+[build]
+  base = "web"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Local development with `netlify dev` (run from the repository root).
+[dev]
+  command = "npm run dev"
+  targetPort = 5173
+  framework = "#custom"

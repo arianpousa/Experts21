@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.netlify/
+# Generated at build time by scripts/build-agents.mjs
+src/generated/
+server/generated/
+.env

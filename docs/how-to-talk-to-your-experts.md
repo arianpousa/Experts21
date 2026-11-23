@@ -156,6 +156,12 @@ node sdk/ask-agent.mjs "Is a Texas client served remotely from San Juan EXPORT o
 
 ---
 
+## 5. Asking in the web app
+
+`web/` is a chat app you deploy to Netlify. Pick any expert in the sidebar, or **Ask the whole team** to have the orchestrator pick the experts and combine their answers. Setup and deploy steps: [web/README.md](../web/README.md).
+
+---
+
 ## If something doesn't work
 
 - **The orchestrator answers without consulting experts.** It will say so in its answer. Check that `.claude/settings.json` still sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to `2`, or start with `claude --agent orchestrator`.
