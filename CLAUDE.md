@@ -23,6 +23,8 @@ This project is an advisory team of AI agents for a consultant planning an AI co
 
 ## How to use it
 
+Example prompts: `docs/how-to-talk-to-your-experts.md`.
+
 - **Any cross-domain question:** "Use the orchestrator to ..." or `@agent-orchestrator ...`. It picks the experts, runs them in parallel, has them cross-review, and returns one answer.
 - **Whole session as the coordinator:** `claude --agent orchestrator`.
 - **Nesting:** the orchestrator calls experts as subagents of a subagent. `.claude/settings.json` sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to 2 so this works even where the environment defaults to 1. If experts still cannot be launched, run `claude --agent orchestrator` so the orchestrator is the main thread.
