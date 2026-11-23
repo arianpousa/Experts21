@@ -20,6 +20,7 @@
 | 09 | [09-act-60-and-tax-benefits.md](09-act-60-and-tax-benefits.md) | **Main focus:** Chapter 3 export services (4% / 2%), the nexus rule, federal §933/§937 interaction, Chapter 2 investor decree (0% vs 4% by filing date), other incentives, compliance checklist | Tax, Legal, Finance |
 | — | [expert-roster.md](expert-roster.md) | **Agent team design:** 33 agents (31 experts + orchestrator + meta agent) and 46 shared skills (reusable methods), with wiring, collaboration patterns and the map to `.claude/agents/` and `.claude/skills/` | Everyone using or changing the team |
 | — | [how-to-talk-to-your-experts.md](how-to-talk-to-your-experts.md) | Example prompts: multi-expert questions through the orchestrator, asking one agent, asking the whole team | The consultant |
+| — | [agent-brains.md](agent-brains.md) | Each agent's model (opus / sonnet / haiku) and why, plus its name, voice and working style. Agents' own documents live in `knowledge/<agent-name>/` | Everyone using or changing the team |
 
 ## Executive summary
 

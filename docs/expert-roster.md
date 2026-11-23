@@ -16,79 +16,79 @@
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A32 | **Orchestrator** | Takes any question about the firm, decides which experts to bring in, has them work together (parallel briefs, then cross-review), and returns one combined answer. | The whole team, its skills and the collaboration patterns in the roster | README, ROSTER | S01, S40, S43 |
-| A33 | **Meta Agent (Team Architect)** | Creates new agents and skills, improves existing ones, and keeps the team's wiring, roster and CLAUDE.md consistent. | Claude Code subagent and skill file formats; this team's conventions and roster | ROSTER | S01, S44, S45, S46 |
+| A32 | **Orchestrator** (Marisol, opus) | Takes any question about the firm, decides which experts to bring in, has them work together (parallel briefs, then cross-review), and returns one combined answer. | The whole team, its skills and the collaboration patterns in the roster | README, ROSTER | S01, S40, S43 |
+| A33 | **Meta Agent (Team Architect)** (Tomás, sonnet) | Creates new agents and skills, improves existing ones, and keeps the team's wiring, roster and CLAUDE.md consistent. | Claude Code subagent and skill file formats; this team's conventions and roster | ROSTER | S01, S44, S45, S46 |
 
 ### Leadership & strategy
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A01 | **Engagement Lead** | Runs the engagement for the consultant: the plan, decision log, status reports and executive briefings. Hands multi-expert questions to the orchestrator. | Whole research set at summary level; the roster itself | README, ROSTER, 08 | S01, S37, S39, S40 |
-| A02 | **Business Strategist** | Designs the business model (export-led core plus local beachhead), phase plan and go/no-go criteria, and stress-tests the strategy against a no-decree scenario. | Consulting business models; Puerto Rico economy | README, 01, 02, 08, 09 | S01, S02, S17, S18, S19, S22, S23, S39, S40 |
-| A03 | **Market Research Analyst** | Sizes the local and export markets bottom-up and keeps AI-adoption and economic data (Census, IDC, Microsoft, InvestPR) current. | AI adoption surveys; Puerto Rico economic data sources | 01, 02 | S01, S02, S03, S04 |
-| A04 | **Competitive Intelligence Analyst** | Tracks local AI firms, Big 4 practices and mainland/nearshore rivals, and identifies the positioning gaps the firm can own. | Puerto Rico and mainland AI services landscape | 03, 07 | S01, S03, S25 |
+| A01 | **Engagement Lead** (Elena, sonnet) | Runs the engagement for the consultant: the plan, decision log, status reports and executive briefings. Hands multi-expert questions to the orchestrator. | Whole research set at summary level; the roster itself | README, ROSTER, 08 | S01, S37, S39, S40 |
+| A02 | **Business Strategist** (Rafael, opus) | Designs the business model (export-led core plus local beachhead), phase plan and go/no-go criteria, and stress-tests the strategy against a no-decree scenario. | Consulting business models; Puerto Rico economy | README, 01, 02, 08, 09 | S01, S02, S17, S18, S19, S22, S23, S39, S40 |
+| A03 | **Market Research Analyst** (Priya, sonnet) | Sizes the local and export markets bottom-up and keeps AI-adoption and economic data (Census, IDC, Microsoft, InvestPR) current. | AI adoption surveys; Puerto Rico economic data sources | 01, 02 | S01, S02, S03, S04 |
+| A04 | **Competitive Intelligence Analyst** (Diego, haiku) | Tracks local AI firms, Big 4 practices and mainland/nearshore rivals, and identifies the positioning gaps the firm can own. | Puerto Rico and mainland AI services landscape | 03, 07 | S01, S03, S25 |
 
 ### Tax & incentives
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A05 | **Act 60 Incentives Specialist** | Determines decree eligibility, prepares and maintains the Chapter 3 (and founders' Chapter 2) decrees, and finds other Act 60 incentives that apply. | Act 60 Chapters 2 and 3; Acts 52-2022, 65-2025 and 38-2026; the DDEC process | 09, 02, 05 | S01, S05, S06, S07, S10, S19, S42 |
-| A06 | **U.S. Federal Tax Advisor** | Ensures the structure delivers the federal result (IRC 933/937, corporate classification, no SE-tax trap, U.S.-source on-site work, FBAR/FATCA). | IRC 933, 937 and 1402; entity classification; foreign-corporation rules | 09, 08 | S01, S05, S07, S08, S09, S10, S19 |
-| A07 | **Puerto Rico Tax & Accounting Specialist (CPA)** | Runs Puerto Rico returns, IVU, municipal license tax, CRIM, segregated EXPORT/LOCAL books, the decree annual report and CPA certifications. | Puerto Rico Internal Revenue Code, IVU, patente, CRIM, Form 480.30(II) | 04, 05, 09 | S01, S05, S06, S07, S09, S10, S13, S19 |
-| A08 | **Residency & Relocation Advisor** | Helps founders establish and document bona fide Puerto Rico residency, meet the Chapter 2 filing and home-purchase rules, and plan the move. | Bona fide residency tests; Chapter 2 conditions; relocation logistics | 09, 08 | S01, S08, S42 |
+| A05 | **Act 60 Incentives Specialist** (Carmen, opus) | Determines decree eligibility, prepares and maintains the Chapter 3 (and founders' Chapter 2) decrees, and finds other Act 60 incentives that apply. | Act 60 Chapters 2 and 3; Acts 52-2022, 65-2025 and 38-2026; the DDEC process | 09, 02, 05 | S01, S05, S06, S07, S10, S19, S42 |
+| A06 | **U.S. Federal Tax Advisor** (Howard, opus) | Ensures the structure delivers the federal result (IRC 933/937, corporate classification, no SE-tax trap, U.S.-source on-site work, FBAR/FATCA). | IRC 933, 937 and 1402; entity classification; foreign-corporation rules | 09, 08 | S01, S05, S07, S08, S09, S10, S19 |
+| A07 | **Puerto Rico Tax & Accounting Specialist (CPA)** (Luis, opus) | Runs Puerto Rico returns, IVU, municipal license tax, CRIM, segregated EXPORT/LOCAL books, the decree annual report and CPA certifications. | Puerto Rico Internal Revenue Code, IVU, patente, CRIM, Form 480.30(II) | 04, 05, 09 | S01, S05, S06, S07, S09, S10, S13, S19 |
+| A08 | **Residency & Relocation Advisor** (Sofía, opus) | Helps founders establish and document bona fide Puerto Rico residency, meet the Chapter 2 filing and home-purchase rules, and plan the move. | Bona fide residency tests; Chapter 2 conditions; relocation logistics | 09, 08 | S01, S08, S42 |
 
 ### Legal & compliance
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A09 | **Corporate & Commercial Attorney** | Forms the entity, handles registrations, and drafts MSAs/SOWs with nexus and work-location language, IP terms and liability caps. | Puerto Rico corporate law; commercial contracts; IP | 05, 09 | S01, S06, S11, S12, S16 |
-| A10 | **Employment Law Counsel** | Keeps hiring, handbooks, pay, leave, Christmas bonus, Act 80 terminations, CFSE coverage and contractor use compliant with Puerto Rico labor law. | Act 4-2017, Act 80, Act 148, Act 180, CFSE; Spanish-language HR documents | 06 | S01, S05, S11, S13, S15, S24, S27, S41 |
-| A11 | **AI Governance & Regulatory Advisor** | Maps client and firm obligations under SB 68, HIPAA, GLBA/OCIF, FDA Part 11/GxP and SOC 2, and shapes the AI Governance offer. | AI regulation; HIPAA, GLBA/OCIF, FDA Part 11, SOC 2; responsible-AI frameworks | 05, 08, 02 | S01, S05, S11, S14, S31, S33, S34, S35, S39 |
-| A12 | **Risk & Compliance Officer** | Owns the risk register and compliance calendar, and keeps the firm audit-ready (decree conditions, sourcing, residency evidence, labor rules). | All firm obligations; IRS and GAO scrutiny of Act 60 | 08, 09, 05, 06 | S01, S05, S06, S08, S09, S13, S14, S15, S34, S38, S39 |
+| A09 | **Corporate & Commercial Attorney** (Gabriel, opus) | Forms the entity, handles registrations, and drafts MSAs/SOWs with nexus and work-location language, IP terms and liability caps. | Puerto Rico corporate law; commercial contracts; IP | 05, 09 | S01, S06, S11, S12, S16 |
+| A10 | **Employment Law Counsel** (Isabel, opus) | Keeps hiring, handbooks, pay, leave, Christmas bonus, Act 80 terminations, CFSE coverage and contractor use compliant with Puerto Rico labor law. | Act 4-2017, Act 80, Act 148, Act 180, CFSE; Spanish-language HR documents | 06 | S01, S05, S11, S13, S15, S24, S27, S41 |
+| A11 | **AI Governance & Regulatory Advisor** (Naomi, opus) | Maps client and firm obligations under SB 68, HIPAA, GLBA/OCIF, FDA Part 11/GxP and SOC 2, and shapes the AI Governance offer. | AI regulation; HIPAA, GLBA/OCIF, FDA Part 11, SOC 2; responsible-AI frameworks | 05, 08, 02 | S01, S05, S11, S14, S31, S33, S34, S35, S39 |
+| A12 | **Risk & Compliance Officer** (Héctor, opus) | Owns the risk register and compliance calendar, and keeps the firm audit-ready (decree conditions, sourcing, residency evidence, labor rules). | All firm obligations; IRS and GAO scrutiny of Act 60 | 08, 09, 05, 06 | S01, S05, S06, S08, S09, S13, S14, S15, S34, S38, S39 |
 
 ### Finance
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A13 | **CFO / Financial Planner** | Builds the budget, runway, cash-flow and capital plan, models tax by EXPORT/LOCAL mix, and tracks the $3M volume threshold. | Firm cost structure; Act 60 rates and thresholds; payroll burden | 04, 09, 06 | S01, S06, S07, S10, S13, S16, S17, S18, S19, S20, S24, S39 |
-| A14 | **Pricing & Offer Designer** | Sets rates and designs productized offers and packages with target margins for export versus local clients. | Consulting rate benchmarks; offer catalogue | 04, 07, 02 | S01, S06, S12, S17, S20, S21, S23 |
+| A13 | **CFO / Financial Planner** (Andrea, opus) | Builds the budget, runway, cash-flow and capital plan, models tax by EXPORT/LOCAL mix, and tracks the $3M volume threshold. | Firm cost structure; Act 60 rates and thresholds; payroll burden | 04, 09, 06 | S01, S06, S07, S10, S13, S16, S17, S18, S19, S20, S24, S39 |
+| A14 | **Pricing & Offer Designer** (Marco, sonnet) | Sets rates and designs productized offers and packages with target margins for export versus local clients. | Consulting rate benchmarks; offer catalogue | 04, 07, 02 | S01, S06, S12, S17, S20, S21, S23 |
 
 ### Sales, marketing & partnerships
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A15 | **Marketing & Brand Strategist** | Owns positioning, the bilingual brand, channel mix and the year-1 marketing plan for both the local and export motions. | Puerto Rico and mainland B2B marketing channels; bilingual brand | 07, 03, 02, 01 | S01, S02, S03, S04, S25, S26, S27, S29, S30 |
-| A16 | **Content & Thought Leadership Writer** | Produces native-quality English and Puerto Rico Spanish articles, case studies, reports, op-eds and talks. | Firm voice; Puerto Rico Spanish; AI topics | 07, 01 | S01, S26, S27, S30 |
-| A17 | **Export Sales Lead** | Builds and closes the mainland U.S. and LatAm pipeline through account-based outbound, qualifying every deal as EXPORT. | Mainland mid-market buyers; nexus rule | 02, 07, 09 | S01, S04, S06, S12, S20, S21, S22, S25, S28 |
-| A18 | **Local Sales & Community Lead** | Sells to Puerto Rico enterprises and SMEs through relationships, associations and events (Caribbean AI Summit, Cámara de Comercio). | Puerto Rico business community, associations and events; Spanish | 02, 07, 01 | S01, S04, S06, S12, S20, S21, S22, S25, S27, S29 |
-| A19 | **Partnerships & Alliances Manager** | Builds co-sell and subcontracting relationships with Microsoft and other hyperscalers, data platforms and Big 4/IT incumbents. | Partner programs; local incumbents | 03, 07 | S01, S03, S11, S22, S28, S29 |
+| A15 | **Marketing & Brand Strategist** (Valeria, sonnet) | Owns positioning, the bilingual brand, channel mix and the year-1 marketing plan for both the local and export motions. | Puerto Rico and mainland B2B marketing channels; bilingual brand | 07, 03, 02, 01 | S01, S02, S03, S04, S25, S26, S27, S29, S30 |
+| A16 | **Content & Thought Leadership Writer** (Ana, sonnet) | Produces native-quality English and Puerto Rico Spanish articles, case studies, reports, op-eds and talks. | Firm voice; Puerto Rico Spanish; AI topics | 07, 01 | S01, S26, S27, S30 |
+| A17 | **Export Sales Lead** (Jake, sonnet) | Builds and closes the mainland U.S. and LatAm pipeline through account-based outbound, qualifying every deal as EXPORT. | Mainland mid-market buyers; nexus rule | 02, 07, 09 | S01, S04, S06, S12, S20, S21, S22, S25, S28 |
+| A18 | **Local Sales & Community Lead** (Javier, sonnet) | Sells to Puerto Rico enterprises and SMEs through relationships, associations and events (Caribbean AI Summit, Cámara de Comercio). | Puerto Rico business community, associations and events; Spanish | 02, 07, 01 | S01, S04, S06, S12, S20, S21, S22, S25, S27, S29 |
+| A19 | **Partnerships & Alliances Manager** (Mei, sonnet) | Builds co-sell and subcontracting relationships with Microsoft and other hyperscalers, data platforms and Big 4/IT incumbents. | Partner programs; local incumbents | 03, 07 | S01, S03, S11, S22, S28, S29 |
 
 ### Industry domain experts
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A20 | **Life Sciences & GxP Expert** | Advises on pharma and medical-device AI use cases, validation and GxP, and on which life-sciences work qualifies as EXPORT. | Pharma and med-device operations; GxP, FDA Part 11 | 01, 02, 09 | S01, S06, S14, S21, S23, S26, S34 |
-| A21 | **Financial Services Expert** | Advises on banks, cooperatives and insurers: use cases, model risk management and OCIF/GLBA expectations. | Banking, cooperatives and insurance; model risk management | 02, 01 | S01, S14, S21, S23, S26, S31, S34 |
-| A22 | **Healthcare Expert** | Advises on hospitals and health plans (Medicare Advantage/Medicaid): bilingual patient and member AI, and HIPAA-compliant delivery. | Puerto Rico hospitals and health plans; HIPAA | 02, 01 | S01, S14, S21, S23, S26, S27, S34 |
-| A23 | **Public Sector & Procurement Expert** | Guides government sales: agency needs, PRITS, RUL/RPT and SAM.gov registration, RFP responses and payment risk. | Puerto Rico government, PRITS, ASG procurement; SB 68 | 02, 05, 08 | S01, S05, S14, S16, S21, S27, S34 |
-| A24 | **SME Market Specialist** | Designs and validates low-ticket, bilingual offers (WhatsApp, voice, Copilot rollouts) for Puerto Rico small businesses. | Puerto Rico SMEs (PyMEs); low-cost AI tools | 01, 02, 07 | S01, S02, S04, S22, S23, S27 |
+| A20 | **Life Sciences & GxP Expert** (Roberto, sonnet) | Advises on pharma and medical-device AI use cases, validation and GxP, and on which life-sciences work qualifies as EXPORT. | Pharma and med-device operations; GxP, FDA Part 11 | 01, 02, 09 | S01, S06, S14, S21, S23, S26, S34 |
+| A21 | **Financial Services Expert** (Claudia, sonnet) | Advises on banks, cooperatives and insurers: use cases, model risk management and OCIF/GLBA expectations. | Banking, cooperatives and insurance; model risk management | 02, 01 | S01, S14, S21, S23, S26, S31, S34 |
+| A22 | **Healthcare Expert** (Lucía, sonnet) | Advises on hospitals and health plans (Medicare Advantage/Medicaid): bilingual patient and member AI, and HIPAA-compliant delivery. | Puerto Rico hospitals and health plans; HIPAA | 02, 01 | S01, S14, S21, S23, S26, S27, S34 |
+| A23 | **Public Sector & Procurement Expert** (Ramón, sonnet) | Guides government sales: agency needs, PRITS, RUL/RPT and SAM.gov registration, RFP responses and payment risk. | Puerto Rico government, PRITS, ASG procurement; SB 68 | 02, 05, 08 | S01, S05, S14, S16, S21, S27, S34 |
+| A24 | **SME Market Specialist** (Yari, sonnet) | Designs and validates low-ticket, bilingual offers (WhatsApp, voice, Copilot rollouts) for Puerto Rico small businesses. | Puerto Rico SMEs (PyMEs); low-cost AI tools | 01, 02, 07 | S01, S02, S04, S22, S23, S27 |
 
 ### Technical
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A25 | **AI Solutions Architect** | Turns client problems into vendor-agnostic AI solution designs, estimates and technical proposals. | AI platforms, vendors and reference architectures | 02, 07 | S01, S12, S20, S21, S23, S31, S32, S33, S36 |
-| A26 | **ML/LLM Engineering Lead** | Leads delivery of RAG, agents and model integrations with evaluations and guardrails, and builds reusable accelerators (licensable IP). | LLMs, RAG, agents, bilingual NLP | 07, 08 | S01, S32, S33, S34, S36, S41 |
-| A27 | **Data Engineering Lead** | Runs data-readiness assessments and builds the data pipelines and platforms that AI use cases depend on. | Data platforms, pipelines, data quality | 01, 03 | S01, S31, S32, S36 |
-| A28 | **Cloud, MLOps & Security Engineer** | Owns cloud infrastructure, deployment, monitoring, security controls and data privacy, and the path to SOC 2. | Cloud, MLOps, security frameworks, SOC 2 | 05, 08 | S01, S14, S32, S33, S35, S38 |
+| A25 | **AI Solutions Architect** (Kenji, sonnet) | Turns client problems into vendor-agnostic AI solution designs, estimates and technical proposals. | AI platforms, vendors and reference architectures | 02, 07 | S01, S12, S20, S21, S23, S31, S32, S33, S36 |
+| A26 | **ML/LLM Engineering Lead** (Nadia, sonnet) | Leads delivery of RAG, agents and model integrations with evaluations and guardrails, and builds reusable accelerators (licensable IP). | LLMs, RAG, agents, bilingual NLP | 07, 08 | S01, S32, S33, S34, S36, S41 |
+| A27 | **Data Engineering Lead** (Óscar, sonnet) | Runs data-readiness assessments and builds the data pipelines and platforms that AI use cases depend on. | Data platforms, pipelines, data quality | 01, 03 | S01, S31, S32, S36 |
+| A28 | **Cloud, MLOps & Security Engineer** (Erik, sonnet) | Owns cloud infrastructure, deployment, monitoring, security controls and data privacy, and the path to SOC 2. | Cloud, MLOps, security frameworks, SOC 2 | 05, 08 | S01, S14, S32, S33, S35, S38 |
 
 ### Operations & people
 
 | ID | Role | Job description | Knowledge | Docs | Skills |
 |---|---|---|---|---|---|
-| A29 | **Delivery & Engagement Manager** | Runs engagements on scope, schedule and quality, delivered remotely from Puerto Rico, with SOW tax tags and work-location logs kept current. | Delivery methods; nexus and work-location rules | 02, 09 | S01, S06, S09, S12, S20, S21, S30, S36, S37 |
-| A30 | **People & Talent Lead** | Recruits and retains AI talent (UPRM, diaspora, difficult-to-hire incentive), benchmarks pay, and plans the team build. | Puerto Rico talent market; Act 60 staffing incentives | 06, 04 | S01, S08, S15, S24, S29, S41 |
-| A31 | **Operations & Business Continuity Manager** | Runs office, IT, vendors and admin, and plans for power, internet and hurricane disruption. | Puerto Rico facilities, grid and hurricane risk; registrations | 04, 05, 08 | S01, S13, S18, S35, S37, S38, S39 |
+| A29 | **Delivery & Engagement Manager** (Patricia, sonnet) | Runs engagements on scope, schedule and quality, delivered remotely from Puerto Rico, with SOW tax tags and work-location logs kept current. | Delivery methods; nexus and work-location rules | 02, 09 | S01, S06, S09, S12, S20, S21, S30, S36, S37 |
+| A30 | **People & Talent Lead** (Daniela, sonnet) | Recruits and retains AI talent (UPRM, diaspora, difficult-to-hire incentive), benchmarks pay, and plans the team build. | Puerto Rico talent market; Act 60 staffing incentives | 06, 04 | S01, S08, S15, S24, S29, S41 |
+| A31 | **Operations & Business Continuity Manager** (Manny, haiku) | Runs office, IT, vendors and admin, and plans for power, internet and hurricane disruption. | Puerto Rico facilities, grid and hurricane risk; registrations | 04, 05, 08 | S01, S13, S18, S35, S37, S38, S39 |
 
 ## Part 2: Skills (reusable methods)
 
@@ -248,39 +248,39 @@ The orchestrator uses these as starting points (also in the `route-question-to-e
 
 | ID | Agent file | | ID | Skill file |
 |---|---|---|---|---|
-| A01 | `.claude/agents/engagement-lead.md` | | S01 | `.claude/skills/verify-and-cite-source/SKILL.md` |
-| A02 | `.claude/agents/business-strategist.md` | | S02 | `.claude/skills/size-market-bottom-up/SKILL.md` |
-| A03 | `.claude/agents/market-research-analyst.md` | | S03 | `.claude/skills/profile-competitor/SKILL.md` |
-| A04 | `.claude/agents/competitive-intelligence-analyst.md` | | S04 | `.claude/skills/build-ideal-client-profile/SKILL.md` |
-| A05 | `.claude/agents/act60-incentives-specialist.md` | | S05 | `.claude/skills/brief-regulatory-change/SKILL.md` |
-| A06 | `.claude/agents/us-federal-tax-advisor.md` | | S06 | `.claude/skills/tag-export-or-local/SKILL.md` |
-| A07 | `.claude/agents/pr-tax-accounting-specialist.md` | | S07 | `.claude/skills/assess-act60-eligibility/SKILL.md` |
-| A08 | `.claude/agents/residency-relocation-advisor.md` | | S08 | `.claude/skills/check-bona-fide-residency/SKILL.md` |
-| A09 | `.claude/agents/corporate-commercial-attorney.md` | | S09 | `.claude/skills/source-income-by-work-location/SKILL.md` |
-| A10 | `.claude/agents/employment-law-counsel.md` | | S10 | `.claude/skills/compare-entity-tax-structures/SKILL.md` |
-| A11 | `.claude/agents/ai-governance-regulatory-advisor.md` | | S11 | `.claude/skills/review-contract/SKILL.md` |
-| A12 | `.claude/agents/risk-compliance-officer.md` | | S12 | `.claude/skills/draft-contract-or-sow/SKILL.md` |
-| A13 | `.claude/agents/cfo-financial-planner.md` | | S13 | `.claude/skills/build-compliance-calendar/SKILL.md` |
-| A14 | `.claude/agents/pricing-offer-designer.md` | | S14 | `.claude/skills/map-regulation-to-controls/SKILL.md` |
-| A15 | `.claude/agents/marketing-brand-strategist.md` | | S15 | `.claude/skills/check-pr-labor-compliance/SKILL.md` |
-| A16 | `.claude/agents/content-thought-leadership-writer.md` | | S16 | `.claude/skills/build-rfp-compliance-matrix/SKILL.md` |
-| A17 | `.claude/agents/export-sales-lead.md` | | S17 | `.claude/skills/build-break-even-model/SKILL.md` |
-| A18 | `.claude/agents/local-sales-community-lead.md` | | S18 | `.claude/skills/build-budget-and-runway/SKILL.md` |
-| A19 | `.claude/agents/partnerships-alliances-manager.md` | | S19 | `.claude/skills/model-tax-by-revenue-mix/SKILL.md` |
-| A20 | `.claude/agents/life-sciences-gxp-expert.md` | | S20 | `.claude/skills/price-engagement/SKILL.md` |
-| A21 | `.claude/agents/financial-services-expert.md` | | S21 | `.claude/skills/write-proposal/SKILL.md` |
-| A22 | `.claude/agents/healthcare-expert.md` | | S22 | `.claude/skills/qualify-lead/SKILL.md` |
-| A23 | `.claude/agents/public-sector-procurement-expert.md` | | S23 | `.claude/skills/quantify-ai-use-case-roi/SKILL.md` |
-| A24 | `.claude/agents/sme-market-specialist.md` | | S24 | `.claude/skills/benchmark-compensation/SKILL.md` |
-| A25 | `.claude/agents/ai-solutions-architect.md` | | S25 | `.claude/skills/write-positioning-and-messaging/SKILL.md` |
-| A26 | `.claude/agents/ml-llm-engineering-lead.md` | | S26 | `.claude/skills/write-thought-leadership/SKILL.md` |
-| A27 | `.claude/agents/data-engineering-lead.md` | | S27 | `.claude/skills/localize-to-pr-spanish/SKILL.md` |
-| A28 | `.claude/agents/cloud-mlops-security-engineer.md` | | S28 | `.claude/skills/build-target-account-outreach/SKILL.md` |
-| A29 | `.claude/agents/delivery-engagement-manager.md` | | S29 | `.claude/skills/plan-event-presence/SKILL.md` |
-| A30 | `.claude/agents/people-talent-lead.md` | | S30 | `.claude/skills/write-case-study/SKILL.md` |
-| A31 | `.claude/agents/operations-continuity-manager.md` | | S31 | `.claude/skills/assess-data-readiness/SKILL.md` |
-| A32 | `.claude/agents/orchestrator.md` | | S32 | `.claude/skills/design-ai-solution-architecture/SKILL.md` |
-| A33 | `.claude/agents/meta-agent.md` | | S33 | `.claude/skills/design-ai-evaluation-suite/SKILL.md` |
+| A01 | `.claude/agents/engagement-lead.md` · `knowledge/engagement-lead/` | | S01 | `.claude/skills/verify-and-cite-source/SKILL.md` |
+| A02 | `.claude/agents/business-strategist.md` · `knowledge/business-strategist/` | | S02 | `.claude/skills/size-market-bottom-up/SKILL.md` |
+| A03 | `.claude/agents/market-research-analyst.md` · `knowledge/market-research-analyst/` | | S03 | `.claude/skills/profile-competitor/SKILL.md` |
+| A04 | `.claude/agents/competitive-intelligence-analyst.md` · `knowledge/competitive-intelligence-analyst/` | | S04 | `.claude/skills/build-ideal-client-profile/SKILL.md` |
+| A05 | `.claude/agents/act60-incentives-specialist.md` · `knowledge/act60-incentives-specialist/` | | S05 | `.claude/skills/brief-regulatory-change/SKILL.md` |
+| A06 | `.claude/agents/us-federal-tax-advisor.md` · `knowledge/us-federal-tax-advisor/` | | S06 | `.claude/skills/tag-export-or-local/SKILL.md` |
+| A07 | `.claude/agents/pr-tax-accounting-specialist.md` · `knowledge/pr-tax-accounting-specialist/` | | S07 | `.claude/skills/assess-act60-eligibility/SKILL.md` |
+| A08 | `.claude/agents/residency-relocation-advisor.md` · `knowledge/residency-relocation-advisor/` | | S08 | `.claude/skills/check-bona-fide-residency/SKILL.md` |
+| A09 | `.claude/agents/corporate-commercial-attorney.md` · `knowledge/corporate-commercial-attorney/` | | S09 | `.claude/skills/source-income-by-work-location/SKILL.md` |
+| A10 | `.claude/agents/employment-law-counsel.md` · `knowledge/employment-law-counsel/` | | S10 | `.claude/skills/compare-entity-tax-structures/SKILL.md` |
+| A11 | `.claude/agents/ai-governance-regulatory-advisor.md` · `knowledge/ai-governance-regulatory-advisor/` | | S11 | `.claude/skills/review-contract/SKILL.md` |
+| A12 | `.claude/agents/risk-compliance-officer.md` · `knowledge/risk-compliance-officer/` | | S12 | `.claude/skills/draft-contract-or-sow/SKILL.md` |
+| A13 | `.claude/agents/cfo-financial-planner.md` · `knowledge/cfo-financial-planner/` | | S13 | `.claude/skills/build-compliance-calendar/SKILL.md` |
+| A14 | `.claude/agents/pricing-offer-designer.md` · `knowledge/pricing-offer-designer/` | | S14 | `.claude/skills/map-regulation-to-controls/SKILL.md` |
+| A15 | `.claude/agents/marketing-brand-strategist.md` · `knowledge/marketing-brand-strategist/` | | S15 | `.claude/skills/check-pr-labor-compliance/SKILL.md` |
+| A16 | `.claude/agents/content-thought-leadership-writer.md` · `knowledge/content-thought-leadership-writer/` | | S16 | `.claude/skills/build-rfp-compliance-matrix/SKILL.md` |
+| A17 | `.claude/agents/export-sales-lead.md` · `knowledge/export-sales-lead/` | | S17 | `.claude/skills/build-break-even-model/SKILL.md` |
+| A18 | `.claude/agents/local-sales-community-lead.md` · `knowledge/local-sales-community-lead/` | | S18 | `.claude/skills/build-budget-and-runway/SKILL.md` |
+| A19 | `.claude/agents/partnerships-alliances-manager.md` · `knowledge/partnerships-alliances-manager/` | | S19 | `.claude/skills/model-tax-by-revenue-mix/SKILL.md` |
+| A20 | `.claude/agents/life-sciences-gxp-expert.md` · `knowledge/life-sciences-gxp-expert/` | | S20 | `.claude/skills/price-engagement/SKILL.md` |
+| A21 | `.claude/agents/financial-services-expert.md` · `knowledge/financial-services-expert/` | | S21 | `.claude/skills/write-proposal/SKILL.md` |
+| A22 | `.claude/agents/healthcare-expert.md` · `knowledge/healthcare-expert/` | | S22 | `.claude/skills/qualify-lead/SKILL.md` |
+| A23 | `.claude/agents/public-sector-procurement-expert.md` · `knowledge/public-sector-procurement-expert/` | | S23 | `.claude/skills/quantify-ai-use-case-roi/SKILL.md` |
+| A24 | `.claude/agents/sme-market-specialist.md` · `knowledge/sme-market-specialist/` | | S24 | `.claude/skills/benchmark-compensation/SKILL.md` |
+| A25 | `.claude/agents/ai-solutions-architect.md` · `knowledge/ai-solutions-architect/` | | S25 | `.claude/skills/write-positioning-and-messaging/SKILL.md` |
+| A26 | `.claude/agents/ml-llm-engineering-lead.md` · `knowledge/ml-llm-engineering-lead/` | | S26 | `.claude/skills/write-thought-leadership/SKILL.md` |
+| A27 | `.claude/agents/data-engineering-lead.md` · `knowledge/data-engineering-lead/` | | S27 | `.claude/skills/localize-to-pr-spanish/SKILL.md` |
+| A28 | `.claude/agents/cloud-mlops-security-engineer.md` · `knowledge/cloud-mlops-security-engineer/` | | S28 | `.claude/skills/build-target-account-outreach/SKILL.md` |
+| A29 | `.claude/agents/delivery-engagement-manager.md` · `knowledge/delivery-engagement-manager/` | | S29 | `.claude/skills/plan-event-presence/SKILL.md` |
+| A30 | `.claude/agents/people-talent-lead.md` · `knowledge/people-talent-lead/` | | S30 | `.claude/skills/write-case-study/SKILL.md` |
+| A31 | `.claude/agents/operations-continuity-manager.md` · `knowledge/operations-continuity-manager/` | | S31 | `.claude/skills/assess-data-readiness/SKILL.md` |
+| A32 | `.claude/agents/orchestrator.md` · `knowledge/orchestrator/` | | S32 | `.claude/skills/design-ai-solution-architecture/SKILL.md` |
+| A33 | `.claude/agents/meta-agent.md` · `knowledge/meta-agent/` | | S33 | `.claude/skills/design-ai-evaluation-suite/SKILL.md` |
 |  |  | | S34 | `.claude/skills/run-ai-risk-review/SKILL.md` |
 |  |  | | S35 | `.claude/skills/run-security-privacy-review/SKILL.md` |
 |  |  | | S36 | `.claude/skills/estimate-technical-effort/SKILL.md` |
@@ -299,4 +299,5 @@ The orchestrator uses these as starting points (also in the `route-question-to-e
 
 - **Tax and legal agents advise; humans decide.** Every Act 60, federal tax and legal conclusion should be confirmed by a licensed Puerto Rico attorney or CPA before acting (see the open questions in [README.md](README.md)).
 - **Time-sensitive:** `act60-incentives-specialist` and `residency-relocation-advisor` should run `build-relocation-chapter2-checklist` now for any founder who may need to file a Chapter 2 application before **December 31, 2026**.
+- **Models, names and personalities:** see [agent-brains.md](agent-brains.md).
 - **Changing the team:** ask the `meta-agent`. It follows `create-subagent` / `create-skill` and runs `audit-team-configuration`.

@@ -90,6 +90,14 @@ Ask the employment-law-counsel what we owe a salaried engineer hired in January 
 if we let them go after 8 months.
 ```
 
+**By first name** (names are listed in [agent-brains.md](agent-brains.md)):
+
+```text
+Ask Andrea, the CFO, how many months of runway we have if the second client slips to April.
+```
+
+**Give an expert documents first:** put files in `knowledge/<agent-name>/` (for example a signed decree in `knowledge/act60-incentives-specialist/`). The agent reads its folder before every answer.
+
 **For a whole session with one expert**, start Claude Code like this:
 
 ```bash

@@ -131,6 +131,13 @@ if os.path.isdir(AG):
             errors.append(f"agent {name}: duplicate id {m.group(1)} (also {agent_ids[m.group(1)]})")
         else:
             agent_ids[m.group(1)] = name
+        model = fm.get("model")
+        if model not in ("opus", "sonnet", "haiku", "fable", "inherit") and not str(model or "").startswith("claude-"):
+            warnings.append(f"agent {name}: model '{model}' missing or unrecognized")
+        if not os.path.isfile(os.path.join(ROOT, "knowledge", name, "README.md")):
+            warnings.append(f"agent {name}: knowledge/{name}/README.md missing")
+        if f"knowledge/{name}/" not in body:
+            warnings.append(f"agent {name}: prompt does not tell it to read knowledge/{name}/")
         agents[name] = fm
 
 if len(agents) > 50:
@@ -163,6 +170,13 @@ else:
     for n in agents:
         if f"`{n}`" not in claude_md:
             warnings.append(f"CLAUDE.md: agent {n} not listed in the team section")
+brains = text_of("docs/agent-brains.md")
+if brains is None:
+    warnings.append("docs/agent-brains.md not found")
+else:
+    for n in agents:
+        if f"`{n}`" not in brains:
+            warnings.append(f"agent-brains.md: agent {n} missing")
 orch = text_of(".claude/agents/orchestrator.md")
 if orch:
     for n in agents:

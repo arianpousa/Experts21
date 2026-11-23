@@ -8,18 +8,20 @@ This project is an advisory team of AI agents for a consultant planning an AI co
 - `.claude/agents/`: 33 subagents (31 experts + `orchestrator` + `meta-agent`).
 - `.claude/skills/`: 46 skills. Each is a reusable method (input → steps → output), written once and preloaded into every agent that uses it.
 - `deliverables/`: where agents save files they are asked to produce.
+- `knowledge/<agent-name>/`: each agent's own documents. The agent reads its folder before every answer. Each folder's README says what belongs there.
+- Each agent's model, name and personality: `docs/agent-brains.md`.
 
 ## The team
 
-- **Coordination & meta:** `orchestrator`, `meta-agent`
-- **Leadership & strategy:** `engagement-lead`, `business-strategist`, `market-research-analyst`, `competitive-intelligence-analyst`
-- **Tax & incentives:** `act60-incentives-specialist`, `us-federal-tax-advisor`, `pr-tax-accounting-specialist`, `residency-relocation-advisor`
-- **Legal & compliance:** `corporate-commercial-attorney`, `employment-law-counsel`, `ai-governance-regulatory-advisor`, `risk-compliance-officer`
-- **Finance:** `cfo-financial-planner`, `pricing-offer-designer`
-- **Sales, marketing & partnerships:** `marketing-brand-strategist`, `content-thought-leadership-writer`, `export-sales-lead`, `local-sales-community-lead`, `partnerships-alliances-manager`
-- **Industry domain experts:** `life-sciences-gxp-expert`, `financial-services-expert`, `healthcare-expert`, `public-sector-procurement-expert`, `sme-market-specialist`
-- **Technical:** `ai-solutions-architect`, `ml-llm-engineering-lead`, `data-engineering-lead`, `cloud-mlops-security-engineer`
-- **Operations & people:** `delivery-engagement-manager`, `people-talent-lead`, `operations-continuity-manager`
+- **Coordination & meta:** `orchestrator` (Marisol), `meta-agent` (Tomás)
+- **Leadership & strategy:** `engagement-lead` (Elena), `business-strategist` (Rafael), `market-research-analyst` (Priya), `competitive-intelligence-analyst` (Diego)
+- **Tax & incentives:** `act60-incentives-specialist` (Carmen), `us-federal-tax-advisor` (Howard), `pr-tax-accounting-specialist` (Luis), `residency-relocation-advisor` (Sofía)
+- **Legal & compliance:** `corporate-commercial-attorney` (Gabriel), `employment-law-counsel` (Isabel), `ai-governance-regulatory-advisor` (Naomi), `risk-compliance-officer` (Héctor)
+- **Finance:** `cfo-financial-planner` (Andrea), `pricing-offer-designer` (Marco)
+- **Sales, marketing & partnerships:** `marketing-brand-strategist` (Valeria), `content-thought-leadership-writer` (Ana), `export-sales-lead` (Jake), `local-sales-community-lead` (Javier), `partnerships-alliances-manager` (Mei)
+- **Industry domain experts:** `life-sciences-gxp-expert` (Roberto), `financial-services-expert` (Claudia), `healthcare-expert` (Lucía), `public-sector-procurement-expert` (Ramón), `sme-market-specialist` (Yari)
+- **Technical:** `ai-solutions-architect` (Kenji), `ml-llm-engineering-lead` (Nadia), `data-engineering-lead` (Óscar), `cloud-mlops-security-engineer` (Erik)
+- **Operations & people:** `delivery-engagement-manager` (Patricia), `people-talent-lead` (Daniela), `operations-continuity-manager` (Manny)
 
 ## How to use it
 
@@ -28,7 +30,8 @@ Example prompts: `docs/how-to-talk-to-your-experts.md`.
 - **Any cross-domain question:** "Use the orchestrator to ..." or `@agent-orchestrator ...`. It picks the experts, runs them in parallel, has them cross-review, and returns one answer.
 - **Whole session as the coordinator:** `claude --agent orchestrator`.
 - **Nesting:** the orchestrator calls experts as subagents of a subagent. `.claude/settings.json` sets `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH` to 2 so this works even where the environment defaults to 1. If experts still cannot be launched, run `claude --agent orchestrator` so the orchestrator is the main thread.
-- **One expert:** name it ("Ask the act60-incentives-specialist whether ...") or `@agent-<name>`.
+- **One expert:** name it ("Ask the act60-incentives-specialist whether ...", or by first name: "Ask Carmen, the Act 60 specialist, ...") or `@agent-<name>`.
+- **Give an agent documents:** drop them in `knowledge/<agent-name>/`; it reads them before answering.
 - **One method directly:** `/build-break-even-model`, `/tag-export-or-local`, `/review-contract`, etc.
 - **Change the team:** "Use the meta-agent to add a ... expert" or "... to improve the pricing skill". Then it runs `/audit-team-configuration`.
 
